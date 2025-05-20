@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub - Build and ship software</title>
+    <link rel="icon" type="image/x-icon" href="assets/github.png" alt="GitHub Icon">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <!-- GitHub Logo -->
+                <a class="navbar-brand" href="#">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="navbar-toggler" id="navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <!-- Main Navigation -->
+                <div class="navbar-content" id="navbarContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">Product</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="assets/index-html.html"><i class="fas fa-robot"></i> GitHub Copilot</a></li>
+                                <li><a class="dropdown-item" href="assets/index-css.html"><i class="fas fa-shield-alt"></i> Advanced Security</a></li>
+                                <li><a class="dropdown-item" href=""><i class="fas fa-cogs"></i> Actions</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-laptop-code"></i> Codespaces</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-exclamation-circle"></i> Issues</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-code-branch"></i> Code Review</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-comments"></i> Discussions</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-search"></i> Code Search</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">Solutions</a>
+                            <ul class="dropdown-menu">
+                                <li><h6 class="dropdown-text">By company size</h6></li>
+                                <li><a class="dropdown-item" href="#">Enterprise</a></li>
+                                <li><a class="dropdown-item" href="#">Small and medium teams</a></li>
+                                <li><a class="dropdown-item" href="#">Startup</a></li>
+                                <li><a class="dropdown-item" href="#">Nonprofits</a></li>
+                                <li><h6 class="dropdown-text1"> </h6></li>
+                                <li><h6 class="dropdown-text">By use case</h6></li>
+                                <li><a class="dropdown-item" href="#">DevSecOps</a></li>
+                                <li><a class="dropdown-item" href="#">DevOps</a></li>
+                                <li><a class="dropdown-item" href="#">CI/CD</a></li>
+                                <li><a class="dropdown-item" href="#">View all use cases</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li><h6 class="dropdown-text">Topics</h6></li>
+                                <li><a class="dropdown-item" href="#">AI</a></li>
+                                <li><a class="dropdown-item" href="#">DevOps</a></li>
+                                <li><a class="dropdown-item" href="#">Security</a></li>
+                                <li><a class="dropdown-item" href="#">Software Development</a></li>
+                                <li><a class="dropdown-item" href="#">View all</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">Open Source</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">GitHub Sponsors</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">The ReadME Project</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-text">Repositories</h6></li>
+                                <li><a class="dropdown-item" href="#">Traffic</a></li>
+                                <li><a class="dropdown-item" href="#">Trending</a></li>
+                                <li><a class="dropdown-item" href="#">Collection</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#">Enterprise</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-layer-group"></i> Enterprise Platform</a>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-text">Available add-ons</h6></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-shield"></i> GitHub Advance Security</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fas fa-robot"></i> Copilot for business</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-comments"></i> Premium Support</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link price" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- Search - Desktop only -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <input type="text" class="search-input" placeholder="Search or jump to...">
+                            <div class="search-icon">/</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sign in / Sign up -->
+                    <div class="auth-buttons">
+                        <a href="#" class="btn btn-link price">Sign in</a>
+                        <a href="#" class="btn btn-outline">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-content move-up">
+                <h1>
+                    Build and ship software on a single, collaborative platform
+                </h1>
+                <p class="lead">
+                    Join the world's most widely adopted AI-powered developer platform.
+                </p>
+
+                <!-- Sign up form -->
+                <div class="signup-form">
+                    <div class="input-group boxup">
+                        <input type="email" class="form-control1" placeholder="   Enter your email">
+                        <a href="assets/repository.html" class="btn signgit">Sign up for GitHub</a>
+                        <a href="#" class="btn btn-try">Try GitHub Copilot</a>
+                    </div>
+
+                    <div class="hero-image-container">
+                        <img src="assets/github_illustration.png" alt="GitHub Illustration" class="hero-image move-down">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">100+ million</div>
+                    <p>Developers</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4+ million</div>
+                    <p>Organizations</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">330+ million</div>
+                    <p>Repositories</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">90%</div>
+                    <p>Fortune 100</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Repositories Section -->
+    <section class="popular-repos">
+        <div class="container">
+            <h2>Popular repositories</h2>
+            <div class="repo-grid">
+                <!-- Repo 1 -->
+                <div class="repo-card">
+                    <div class="repo-header">
+                        <h3>
+                            <i class="fa-solid fa-book text-muted"></i>
+                            <a href="#">tensorflow/tensorflow</a>
+                        </h3>
+                        <span class="badge">Public</span>
+                    </div>
+                    <p>An Open Source Machine Learning Framework for Everyone</p>
+                    <div class="repo-stats">
+                        <span><i class="fa-solid fa-circle text-warning"></i> JavaScript</span>
+                        <span><i class="fa-regular fa-star"></i> 169k</span>
+                        <span><i class="fa-solid fa-code-fork"></i> 87.3k</span>
+                    </div>
+                </div>
+                
+                <!-- Repo 2 -->
+                <div class="repo-card">
+                    <div class="repo-header">
+                        <h3>
+                            <i class="fa-solid fa-book text-muted"></i>
+                            <a href="#">facebook/react</a>
+                        </h3>
+                        <span class="badge">Public</span>
+                    </div>
+                    <p>A declarative, efficient, and flexible JavaScript library for building user interfaces.</p>
+                    <div class="repo-stats">
+                        <span><i class="fa-solid fa-circle text-primary"></i> TypeScript</span>
+                        <span><i class="fa-regular fa-star"></i> 195k</span>
+                        <span><i class="fa-solid fa-code-fork"></i> 40.5k</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-section1">
+        <div class="container">
+            <div class="hero-content move-up1">
+                <div class="hero-image-container move-down1">
+                    <img src="assets/github_illustration1.png" alt="GitHub Illustration" class="hero-image">
+                </div>
+
+                <h1>
+                    Millions of developers and businesses call GitHub home
+                </h1>
+                <p class="lead">
+                    Whether you're scaling your development process or just learning how to code, 
+                    GitHub is where you belong. Join the world's most widely adopted AI-powered 
+                    developer platform to build the technologies that redefine what's possible.
+                </p>
+
+                <!-- Sign up form -->
+                <div class="signup-form">
+                    <div class="input-group boxup">
+                        <input type="email" class="form-control1" placeholder="   Enter your email">
+                        <a href="#" class="btn signgit">Sign up for GitHub</a>
+                        <a href="#" class="btn btn-try">Try GitHub Copilot</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-main">
+                    <div class="footer-logo">
+                        <i class="fa-brands fa-github"></i>
+                        <span class="footer-title">GitHub</span>
+                    </div>
+                    <p class="footer-subtitle">Subscribe to our developer newsletter</p>
+                    <p>Get tips, technical guides, and best practices. Twice a month. Right in your inbox.</p>
+                    <button class="btn btn-foot">Subscribe</button>
+                </div>
+                
+                <div class="footer-col">
+                    <h5>Product</h5>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Copilot</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                        <li><a href="#">Compare GitHub</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h5>Platform</h5>
+                    <ul>
+                        <li><a href="#">Developer API</a></li>
+                        <li><a href="#">Partners</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">GitHub CLI</a></li>
+                        <li><a href="#">GitHub Desktop</a></li>
+                        <li><a href="#">GitHub Mobile</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                        <li><a href="#">Professional Services</a></li>
+                        <li><a href="#">Premium Support</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Status</a></li>
+                        <li><a href="#">Contact GitHub</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h5>Company</h5>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Why GitHub</a></li>
+                        <li><a href="#">Customer stories</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">The ReadME Project</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Inclusion</a></li>
+                        <li><a href="#">Social Impact</a></li>
+                        <li><a href="#">Shop</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>© 2025 GitHub, Inc. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/company/github"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/github"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/github"><i class="fab fa-youtube"></i></a>
+                    <a href="https://x.com/github"><i class="fab fa-x-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@github"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.twitch.tv/github"><i class="fa-brands fa-twitch"></i></a>
+                    <a href="https://github.com/github"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

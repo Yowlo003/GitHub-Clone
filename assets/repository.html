@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub - anecito/my-website</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand" href="..//index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 50 50">
+                        <path fill="currentColor" d="M25 10c-8.3 0-15 6.7-15 15 0 6.6 4.3 12.2 10.3 14.2.8.1 1-.3 1-.7v-2.6c-4.2.9-5.1-2-5.1-2-.7-1.7-1.7-2.2-1.7-2.2-1.4-.9.1-.9.1-.9 1.5.1 2.3 1.5 2.3 1.5 1.3 2.3 3.5 1.6 4.4 1.2.1-1 .5-1.6 1-2-3.3-.4-6.8-1.7-6.8-7.4 0-1.6.6-3 1.5-4-.2-.4-.7-1.9.1-4 0 0 1.3-.4 4.1 1.5 1.2-.3 2.5-.5 3.8-.5 1.3 0 2.6.2 3.8.5 2.9-1.9 4.1-1.5 4.1-1.5.8 2.1.3 3.6.1 4 1 1 1.5 2.4 1.5 4 0 5.8-3.5 7-6.8 7.4.5.5 1 1.4 1 2.8v4.1c0 .4.3.9 1 .7 6-2 10.2-7.6 10.2-14.2C40 16.7 33.3 10 25 10z"/>
+                    </svg>
+                    GitHub
+                </a>
+                
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <form class="search-form">
+                        <div class="search-input-group">
+                            <input type="text" class="search-input" placeholder="Search or jump to..." aria-label="Search">
+                            <span class="search-shortcut">/</span>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Mobile Toggle Button -->
+                <button class="navbar-toggler" id="navbarToggler">
+                    <span class="toggler-icon"></span>
+                </button>
+                
+                <!-- Nav Links -->
+                <div class="navbar-menu" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pull Requests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Issues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Explore</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- User Menu -->
+                <div class="navbar-user">
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="userDropdown">
+                            <i class="fa-solid fa-circle-user"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="main-content">
+            <!-- Repository Header -->
+            <div class="repo-header">
+                <div class="container">
+                    <div class="repo-title">
+                        <h1>
+                            <i class="fa-solid fa-book icon-secondary"></i>
+                            <a href="#" class="text-link">anecito</a> /
+                            <a href="#" class="text-link fw-bold">my-website</a>
+                        </h1>
+                        <span class="badge">Public</span>
+                        
+                        <div class="repo-actions">
+                            <button class="btn btn-outline">
+                                <i class="fa-regular fa-eye"></i> Watch
+                                <span class="badge-counter">24</span>
+                            </button>
+                            <button class="btn btn-outline">
+                                <i class="fa-regular fa-star"></i> Star
+                                <span class="badge-counter">142</span>
+                            </button>
+                            <button class="btn btn-outline">
+                                <i class="fa-solid fa-code-fork"></i> Fork
+                                <span class="badge-counter">38</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Repository Navigation -->
+                    <div class="repo-nav">
+                        <ul class="tabs">
+                            <li class="tab-item">
+                                <a class="tab-link active" href="#">
+                                    <i class="fa-solid fa-code"></i> Code
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-circle-exclamation"></i> Issues
+                                    <span class="badge-counter small">12</span>
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-code-pull-request"></i> Pull Requests
+                                    <span class="badge-counter small">4</span>
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-play"></i> Actions
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-table-cells"></i> Projects
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-book"></i> Wiki
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-shield"></i> Security
+                                </a>
+                            </li>
+                            <li class="tab-item">
+                                <a class="tab-link" href="#">
+                                    <i class="fa-solid fa-chart-line"></i> Insights
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Repository Content -->
+            <div class="container content-container">
+                <div class="content-row">
+                    <!-- Branch Selection and Actions -->
+                    <div class="branch-actions">
+                        <div class="action-group">
+                            <div class="action-item">
+                                <div class="dropdown">
+                                    <button type="button" class="btn btn-outline dropdown-toggle">
+                                        <i class="fa-solid fa-code-branch"></i>
+                                        main
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <div class="action-item">
+                                <button class="btn btn-outline">
+                                    <i class="fa-solid fa-code-branch"></i> 3 branches
+                                </button>
+                            </div>
+                            
+                            <div class="action-item">
+                                <button class="btn btn-outline">
+                                    <i class="fa-solid fa-tag"></i> 2 tags
+                                </button>
+                            </div>
+                            
+                            <div class="action-item code-btn">
+                                <button class="btn btn-success">
+                                    <i class="fa-solid fa-code"></i> Code
+                                    <i class="fa-solid fa-caret-down"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- File Browser -->
+                    <div class="file-browser">
+                        <div class="card">
+                            <!-- Commit Info -->
+                            <div class="card-header">
+                                <div class="commit-info">
+                                    <div class="committer">
+                                        <img src="Anecito.png" alt="User Avatar" class="avatar">
+                                        <a href="#" class="fw-bold text-link">anecito</a>
+                                        <span>Update README.md</span>
+                                    </div>
+                                    <div class="commit-meta">
+                                        <a href="#" class="btn-link">
+                                            <i class="fa-solid fa-code-commit"></i>abc1234
+                                        </a>
+                                        <span class="text-muted">· 2 days ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Files Table -->
+                            <div class="table-container">
+                                <table class="files-table">
+                                    <tbody>
+                                        <tr>
+                                            <td class="icon-cell">
+                                                <i class="fa-solid fa-folder text-primary"></i>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-link">docs</a>
+                                            </td>
+                                            <td class="timestamp">Updated 1 week ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="icon-cell">
+                                                <i class="fa-solid fa-folder text-primary"></i>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-link">src</a>
+                                            </td>
+                                            <td class="timestamp">Updated 3 days ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="icon-cell">
+                                                <i class="fa-solid fa-folder text-primary"></i>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-link">tests</a>
+                                            </td>
+                                            <td class="timestamp">Updated 5 days ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="icon-cell">
+                                                <i class="fa-regular fa-file-code text-secondary"></i>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-link">.gitignore</a>
+                                            </td>
+                                            <td class="timestamp">Updated 2 weeks ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="icon-cell">
+                                                <i class="fa-regular fa-file-lines text-secondary"></i>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-link">LICENSE</a>
+                                            </td>
+                                            <td class="timestamp">Updated 2 weeks ago</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="icon-cell">
+                                                <i class="fa-regular fa-file-lines text-secondary"></i>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="text-link">README.md</a>
+                                            </td>
+                                            <td class="timestamp">Updated 2 days ago</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- README Preview -->
+                    <div class="readme-section">
+                        <div class="card">
+                            <div class="card-header">
+                                <div>
+                                    <i class="fa-regular fa-file-lines"></i>
+                                    README.md
+                                </div>
+                            </div>
+                            <div class="card-body readme-content">
+                                <h1>Repository Name</h1>
+                                <p>A brief description of the project and what it does.</p>
+                                
+                                <h2>Installation</h2>
+                                <pre><code>npm install repository-name</code></pre>
+                                
+                                <h2>Features</h2>
+                                <ul>
+                                    <li>Feature one with description</li>
+                                    <li>Feature two with description</li>
+                                    <li>Feature three with description</li>
+                                </ul>
+                                
+                                <h2>Usage</h2>
+                                <pre><code>const package = require('repository-name');
+package.doSomething();</code></pre>
+                                
+                                <h2>Contributing</h2>
+                                <p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
+                                
+                                <h2>License</h2>
+                                <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <i class="fa-solid fa-code-branch"></i>
+                    <span class="fw-bold">GitHub</span>
+                    <span class="separator">·</span>
+                    <a href="#" class="footer-link">About</a>
+                    <span class="separator">·</span>
+                    <a href="#" class="footer-link">Blog</a>
+                    <span class="separator">·</span>
+                    <a href="#" class="footer-link">Docs</a>
+                </div>
+                <div class="footer-copyright">
+                    <div class="text-muted">
+                        © 2025 GitHub, Inc.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
